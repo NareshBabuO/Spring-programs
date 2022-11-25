@@ -387,34 +387,8 @@ public class SpringBoot {
 		System.out.println(context.getBean("number95", String.class).hashCode());
 		System.out.println(context.getBean("number96", String.class).hashCode());
 		System.out.println(context.getBean("number97", String.class).hashCode());
-		System.out.println(context.getBean("number91", String.class).hashCode());
-		System.out.println(context.getBean("number92", String.class).hashCode());
-		System.out.println(context.getBean("number93", String.class).hashCode());
-		System.out.println(context.getBean("number94", String.class).hashCode());
-		System.out.println(context.getBean("number95", String.class).hashCode());
-		System.out.println(context.getBean("number96", String.class).hashCode());
-		System.out.println(context.getBean("number97", String.class).hashCode());
-		System.out.println(context.getBean("number91", String.class).hashCode());
-		System.out.println(context.getBean("number92", String.class).hashCode());
-		System.out.println(context.getBean("number93", String.class).hashCode());
-		System.out.println(context.getBean("number94", String.class).hashCode());
-		System.out.println(context.getBean("number95", String.class).hashCode());
-		System.out.println(context.getBean("number96", String.class).hashCode());
-		System.out.println(context.getBean("number97", String.class).hashCode());
-		System.out.println(context.getBean("number91", String.class).hashCode());
-		System.out.println(context.getBean("number92", String.class).hashCode());
-		System.out.println(context.getBean("number93", String.class).hashCode());
-		System.out.println(context.getBean("number94", String.class).hashCode());
-		System.out.println(context.getBean("number95", String.class).hashCode());
-		System.out.println(context.getBean("number96", String.class).hashCode());
-		System.out.println(context.getBean("number97", String.class).hashCode());
-		System.out.println(context.getBean("number91", String.class).hashCode());
-		System.out.println(context.getBean("number92", String.class).hashCode());
-		System.out.println(context.getBean("number93", String.class).hashCode());
-		System.out.println(context.getBean("number94", String.class).hashCode());
-		System.out.println(context.getBean("number95", String.class).hashCode());
-		System.out.println(context.getBean("number96", String.class).hashCode());
-		System.out.println(context.getBean("number97", String.class).hashCode());
+		
+		
 		
 		System.out.println("number98" + context.getBean("number98", String.class).hashCode());
 		System.out.println("number99" + context.getBean("number99", String.class).hashCode());
