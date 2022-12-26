@@ -13,15 +13,15 @@
 </head>
 <body>
 	
-	<!-- Just an image -->
-	<nav class="navbar navbar-Success bg-warning">
-		<a class="navbar-brand" href="#"> <img
-			src="https://e7.pngegg.com/pngimages/310/332/png-clipart-computer-icons-home-house-desktop-service-home-blue-logo.png"
-			width="40" height="40" alt="">
-		</a>
-		<div>
-			<input type="text" placeholder="Search..">
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+		<a class="navbar-brand" href="#"><img
+			src="https://www.x-workz.in/Logo.png" class="img-fluid" width="100"
+			height="50"></a>
+	
+			<div>
+				<a href="index.jsp">Home</a>
+			</div>
 	</nav>
 
 	<form action="send" method="get">

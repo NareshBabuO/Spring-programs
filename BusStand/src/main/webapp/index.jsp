@@ -51,29 +51,11 @@ body {
 
 		<a class="navbar-brand" href="#"><img
 			src="https://www.x-workz.in/Logo.png" class="img-fluid" width="100"
-			height="50"></a> <a class="navbar-brand" href="#">MyBusApp</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-			data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-			aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-
-
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse"
-			data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-			aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#">Home</a>
-			</div>
+			height="50"></a>
+	
 			<div>
 				<a href="Search.jsp">Search</a>
 			</div>
-		</div>
 	</nav>
 	<div class="bg-img">
 		<marquee behavior="scroll" direction="right" scrollamount="12"
@@ -92,17 +74,17 @@ body {
 			<div class="login-box">
 				<div class="user-box">
 					<label for="cars" style="color: black; font-size: x-large;">Name:</label>
-					<input type="text" name="name" value="${dto.name}"> <br>
+					<input type="text" name="name" placeholder="nameofCity" value="${dto.name}"> <br>
 					<label for="cars" style="color: black; font-size: x-large;">
-						No of Busses:</label><input type="text" name="noOfBusses"
+						No of Busses:</label><input type="text" name="noOfBusses" placeholder="No of Bus"
 						value="${dto.noOfBusses}"> <br> <label for="cars"
 						style="color: black; font-size: x-large;">Location:</label> <input
-						type="text" name="location" value="${dto.location}"><br>
+						type="text" name="location" placeholder="Enter Location" value="${dto.location}"><br>
 					<label for="cars" style="color: black; font-size: x-large;">No
-						Of Platform:</label> <input type="text" name="noOfPlatform"
+						Of Platform:</label> <input type="text" name="noOfPlatform"placeholder="Enter noOfPlatform"
 						value="${dto.noOfPlatform}"> <br> <label for="cars"
 						style="color: black; font-size: x-large;">No Of Shop:</label> <input
-						type="text" name="noOfShop" value="${dto.noOfShop}"><br>
+						type="text" name="noOfShop" placeholder="Enter noOfShop" value="${dto.noOfShop}"><br>
 
 
 					<b> <label for="cars">City:</label></b> <select name="city"

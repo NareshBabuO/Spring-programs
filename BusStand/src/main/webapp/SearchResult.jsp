@@ -5,18 +5,20 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Bike Details</title>
-<h1>Bike Details</h1>
 </head>
 <body>
 
-	<!-- Just an image -->
-	<nav class="navbar navbar-Success bg-warning">
-		<a class="navbar-brand" href="#"> <img
-			src="https://e7.pngegg.com/pngimages/310/332/png-clipart-computer-icons-home-house-desktop-service-home-blue-logo.png"
-			width="40" height="40" alt="">
-		</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+		<a class="navbar-brand" href="#"><img
+			src="https://www.x-workz.in/Logo.png" class="img-fluid" width="100"
+			height="50"></a>
+		<div>
+			<a href="Search.jsp">Search</a>
+		</div>
+		<div>
+			<a href="index.jsp">Home</a>
+		</div>
 	</nav>
 
 
@@ -25,13 +27,21 @@
 	<table border="2">
 		<tr>
 			<th>Name</th>
+			<th>NoOfBusses</th>
 			<th>Location</th>
+			<th>NoofPlatform</th>
+			<th>noOfShop</th>
+			<th>city</th>
 		</tr>
 
 		<c:forEach items="${list}" var="dto">
 			<tr>
 				<td>${dto.name}</td>
+				<td>${dto.noOfBusses}</td>
 				<td>${dto.location}</td>
+				<td>${dto.noOfPlatform}</td>
+				<td>${dto.noOfShop}</td>
+				<td>${dto.city}</td>
 			</tr>
 		</c:forEach>
 
